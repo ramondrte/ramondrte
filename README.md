@@ -9,6 +9,7 @@
 ## 🚀 Tecnologias e Habilidades  
 - 🖥 **Lógica de Programação (Iniciante)** – Algoritmos e estrutura de controle de fluxo  
 - 🛠 **Modelagem de Software** – Diagramas e organização de sistemas
+- ☕ **Java (Iniciante)** – Conhecimento básico na linguagem, sintaxe e estrutura de controle de fluxo. Estudando orientação a objetos e desenvolvimento de aplicações.
 ---
 ## 📊 Minhas Estatísticas no GitHub
 
