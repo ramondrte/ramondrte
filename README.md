@@ -1,9 +1,9 @@
 ## Hi there, my name is Ramon Duarte 👋
 
-## 💻 *Estudante de: *Sistema de Informação*  
+## 💻 *Estudante de:* *Sistema de Informação*  
 ---
 ## 👨‍💻 Sobre mim  
-🎓 Estudante de *Sistema de Informação* -– [1º] semestre no *Centro Universitário UNA*
+🎓 Estudante de **Sistema de Informação** -– [1º] semestre no **Centro Universitário UNA**
 
 ---
 ## 🚀 Tecnologias e Habilidades  
