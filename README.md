@@ -1,6 +1,6 @@
 ## Hi there, my name is Ramon Duarte 👋
 
---💻 *Estudante de:
+## 💻 *Estudante de:
 *Sistema de Informação*  
 ---
 ## 👨‍💻 Sobre mim  
@@ -8,5 +8,5 @@
 ---
 ## 🚀 Tecnologias e Habilidades  
 ---
--- 🖥 *Lógica de Programação (Iniciante)* – Algoritmos e estrutura de controle de fluxo  
--- 🛠 *Modelagem de Software* – Diagramas e organização de sistemas
+- 🖥 *Lógica de Programação (Iniciante)* – Algoritmos e estrutura de controle de fluxo  
+- 🛠 *Modelagem de Software* – Diagramas e organização de sistemas
