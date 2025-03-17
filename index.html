@@ -1,67 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Músicas Favoritas do Momento</title>
+    
+    <!-- Link para a fonte Coolvetica -->
     <style>
+        @font-face {
+            font-family: 'Coolvetica';
+            src: url('Coolvetica.ttf') format('truetype'); 
+        }
         body {
-            background-color: #a63957; /* Cor de fundo */
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
             color: white;
             text-align: center;
-            font-family: Arial, sans-serif;
+            transition: background 0.5s ease;
         }
         h1 {
-            margin-top: 20px;
+            font-family: 'Coolvetica', sans-serif;
+            font-size: 2.5rem;
         }
-        .music {
-            margin: 20px auto;
-            width: 300px;
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
         }
-        .album-cover {
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
+        .musica {
+            margin: 20px 0;
+        }
+        .modo-escuro {
+            background-color: white;
+            color: black;
+        }
+        .botao-modo {
+            background-color: #6200ea;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .botao-modo:hover {
+            background-color: #3700b3;
+        }
+        .biografia, .comentarios {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .mostrar {
+            opacity: 1;
         }
     </style>
 </head>
 <body>
     <h1>Músicas Favoritas do Momento</h1>
+    
+    <button class="botao-modo" onclick="trocarTema()">Alternar Modo</button>
 
-    <div class="music">
-        <img src="https://i.scdn.co/image/ab67616d00001e02be68b69b3a6804c4d6d89ef3" alt="Capa do álbum de Candy" class="album-cover">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1VJwtWR6z7SpZRwipI12be" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    <div class="container">
+        <div class="musica">
+            <h2>Doja Cat</h2>
+            <iframe src="https://open.spotify.com/embed/track/XXXXXXXX" width="300" height="80"></iframe>
+            <p class="biografia">Doja Cat é uma rapper, cantora e compositora americana...</p>
+            <button onclick="toggleInfo(this)">Ver mais</button>
+            <div class="comentarios">
+                <p>O que você achou dessa música?</p>
+                <input type="text" placeholder="Escreva um comentário">
+            </div>
+        </div>
+        
+        <div class="musica">
+            <h2>Charlie XCX feat. Billie Eilish</h2>
+            <iframe src="https://open.spotify.com/embed/track/YYYYYYYY" width="300" height="80"></iframe>
+            <p class="biografia">Charli XCX é uma cantora britânica conhecida por suas músicas...</p>
+            <button onclick="toggleInfo(this)">Ver mais</button>
+            <div class="comentarios">
+                <p>O que você achou dessa música?</p>
+                <input type="text" placeholder="Escreva um comentário">
+            </div>
+        </div>
+
+        <div class="musica">
+            <h2>French Montana</h2>
+            <iframe src="https://open.spotify.com/embed/track/ZZZZZZZZ" width="300" height="80"></iframe>
+            <p class="biografia">French Montana é um rapper marroquino-americano...</p>
+            <button onclick="toggleInfo(this)">Ver mais</button>
+            <div class="comentarios">
+                <p>O que você achou dessa música?</p>
+                <input type="text" placeholder="Escreva um comentário">
+            </div>
+        </div>
+        
+        <div class="musica">
+            <h2>Música da Semana: Sportscar - Tate McRae</h2>
+            <iframe src="https://open.spotify.com/embed/track/WWWWWWWW" width="300" height="80"></iframe>
+            <p class="biografia">Tate McRae é uma cantora e dançarina canadense...</p>
+            <button onclick="toggleInfo(this)">Ver mais</button>
+            <div class="comentarios">
+                <p>O que você achou dessa música?</p>
+                <input type="text" placeholder="Escreva um comentário">
+            </div>
+        </div>
     </div>
 
-    <div class="music">
-        <img src="https://i.scdn.co/image/ab67616d00001e02dfd3a177ecbc3fc0e0d4c1d9" alt="Capa do álbum da segunda música" class="album-cover">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0IsIY8pfu1yaGkPUD7pkDx" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
+    <script>
+        function trocarTema() {
+            document.body.classList.toggle('modo-escuro');
+        }
 
-    <div class="music">
-        <img src="https://i.scdn.co/image/ab67616d00001e025bbae6bc3577f32d3a6f9408" alt="Capa do álbum da terceira música" class="album-cover">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3B54sVLJ402zGa6Xm4YGNe" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
-
-    <div class="music">
-        <img src="https://i.scdn.co/image/ab67616d00001e029cd4195294671f820e159b3b" alt="Capa do álbum da quarta música" class="album-cover">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2qyhy9ndo8tTGMzXeHTisR" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
-
-    <div class="music">
-        <img src="https://i.scdn.co/image/ab67616d00001e02f6cfd0411ad0ec510e51d5a0" alt="Capa do álbum da quinta música" class="album-cover">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4EIFwndJvGpgFjsEbNuYif" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
-
-    <div class="music">
-        <img src="https://i.scdn.co/image/ab67616d00001e02dc61cf2766ce19f79e6b5079" alt="Capa do álbum da sexta música" class="album-cover">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3pjpG96WxzRnxNFxZC56vV" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
-
-    <div class="music">
-        <img src="https://i.scdn.co/image/ab67616d00001e0239e64306c248104f2a1c1170" alt="Capa do álbum da sétima música" class="album-cover">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/24XihnoVPWXlKJ4BgXqjVM" width="100%" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
-
+        function toggleInfo(botao) {
+            var info = botao.previousElementSibling;
+            info.classList.toggle('mostrar');
+        }
+    </script>
 </body>
 </html>
