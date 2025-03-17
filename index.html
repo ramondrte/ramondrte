@@ -3,46 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Músicas Favoritas do Momento</title>
-    <link rel="stylesheet" href="style2.css">
+    <title>Minhas Músicas Favoritas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Músicas Favoritas do Momento</h1>
-        <button id="toggle-theme">Alternar Tema</button>
+        <h1 id="title">Músicas Favoritas do Momento</h1>
+        <button id="theme-toggle">Mudar Tema</button>
     </header>
 
-    <section class="musicas">
-        <div class="musica">
-            <h2>Doja Cat</h2>
-            <iframe src="https://open.spotify.com/embed/track/0IsIY8pfuIyaGkPUD7pkDx" allow="encrypted-media"></iframe>
-            <div class="social">
-                <a href="https://www.instagram.com/dojacat/" target="_blank">Instagram</a>
+    <!-- Biografia dos Artistas -->
+    <section id="biografia">
+        <h2>Biografia dos Artistas</h2>
+        <p>Aqui você pode colocar informações sobre os artistas favoritos. Exemplo: "Nome do Artista é um cantor brasileiro, conhecido por suas músicas..."</p>
+    </section>
+
+    <!-- Álbuns Favoritos -->
+    <section id="albuns-favoritos">
+        <h2>Álbuns Favoritos</h2>
+        <ul>
+            <li><a href="#">Álbum 1</a></li>
+            <li><a href="#">Álbum 2</a></li>
+            <li><a href="#">Álbum 3</a></li>
+        </ul>
+    </section>
+
+    <!-- Top Músicas da Semana -->
+    <section id="top-musicas">
+        <h2>Top Músicas da Semana</h2>
+        <ul>
+            <li>
+                <iframe src="https://open.spotify.com/embed/track/0IsIY8pfu1yaGkPUD7pkDx?si=YGfUmSRHQFuizuMp0g1ppQ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </li>
+            <li>
+                <iframe src="https://open.spotify.com/embed/track/3B54sVLJ402zGa6Xm4YGNe?si=Wai2oJ_4QcG7aETKO6Ip9A" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </li>
+            <li>
+                <iframe src="https://open.spotify.com/embed/track/2qyhy9ndo8tTGMzXeHTisR?si=8PcL7-HWQf2oByxDQGF-YQ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </li>
+            <li>
+                <iframe src="https://open.spotify.com/embed/track/4EIFwndJvGpgFjsEbNuYif?si=YfybA7n5Rue_-jF6EEI6yg" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </li>
+            <li>
+                <iframe src="https://open.spotify.com/embed/track/3pjpG96WxzRnxNFxZC56vV?si=xCCfyMMcRN2C-twfmHe5Fw" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </li>
+            <li>
+                <iframe src="https://open.spotify.com/embed/track/24XihnoVPWXlKJ4BgXqjVM?si=OqufEPheSNaCynjXLXwtdw" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Player de Áudio -->
+    <section id="player">
+        <h2>Ouça Agora</h2>
+        <audio controls>
+            <source src="MUSICA-1.mp3" type="audio/mp3">
+            Seu navegador não suporta o formato de áudio.
+        </audio>
+    </section>
+
+    <!-- Comentários e Avaliações -->
+    <section id="comentarios">
+        <h2>Comentários</h2>
+        <div id="comentarios-list">
+            <div class="comentario">
+                <p><strong>Usuário1:</strong> "Amo essa música! É a melhor do álbum!"</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="comentario">
+                <p><strong>Usuário2:</strong> "Muito boa! Mas preferia uma versão ao vivo."</p>
+                <p>⭐⭐⭐⭐</p>
             </div>
         </div>
+        <textarea id="novo-comentario" placeholder="Deixe seu comentário..."></textarea>
+        <button id="btn-comentar">Comentar</button>
+    </section>
 
-        <div class="musica">
-            <h2>Charli XCX feat. Billie Eilish</h2>
-            <iframe src="https://open.spotify.com/embed/track/EXEMPLO" allow="encrypted-media"></iframe>
-            <div class="social">
-                <a href="https://www.instagram.com/charli_xcx/" target="_blank">Instagram Charli</a>
-                <a href="https://www.instagram.com/billieeilish/" target="_blank">Instagram Billie</a>
-            </div>
+    <!-- Letras das Músicas -->
+    <section id="letras">
+        <h2>Letras das Músicas</h2>
+        <div class="letra-musica">
+            <h3>Música 1</h3>
+            <p>Aqui vai a letra da música 1...</p>
         </div>
-
-        <div class="musica">
-            <h2>French Montana</h2>
-            <iframe src="https://open.spotify.com/embed/track/EXEMPLO" allow="encrypted-media"></iframe>
-            <div class="social">
-                <a href="https://www.instagram.com/frenchmontana/" target="_blank">Instagram</a>
-            </div>
+        <div class="letra-musica">
+            <h3>Música 2</h3>
+            <p>Aqui vai a letra da música 2...</p>
         </div>
     </section>
 
-    <script>
-        document.getElementById('toggle-theme').addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode');
-        });
-    </script>
+    <footer>
+        <p>Desenvolvido por [Seu Nome]</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
