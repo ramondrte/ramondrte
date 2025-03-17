@@ -31,9 +31,45 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" alt="Photoshop" width="40" height="40"/>  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" alt="Blender" width="40" height="40"/>  
 </p>
+
 ---
-### 🎵 Música em destaque:  
 
-[Candy - Doja Cat](https://open.spotify.com/track/6rZeXqj2bZlZyUprXipciN)  
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy - Doja Cat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .link {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
 
-[![Spotify](https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg)](https://open.spotify.com/track/6rZeXqj2bZlZyUprXipciN)
+    <div class="container">
+        <h1>Candy - Doja Cat</h1>
+        <img src="caminho/para/capa-do-album.jpg" alt="Capa do álbum" />
+        <p class="link">
+            <a href="https://open.spotify.com/track/1VJwtWR6z7SpZRwipI12be?si=ADnsiSY3SumkT4Qcx4f5-Q" target="_blank">
+                Ouça no Spotify
+            </a>
+        </p>
+    </div>
+
+</body>
+</html>
