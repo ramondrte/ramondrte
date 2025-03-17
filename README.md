@@ -31,3 +31,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg" alt="Photoshop" width="40" height="40"/>  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" alt="Blender" width="40" height="40"/>  
 </p>
+---
+### 🎵 Música em destaque:  
+[Candy - Doja Cat](https://open.spotify.com/track/6rZeXqj2bZlZyUprXipciN)  
+[![Spotify](https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg)](https://open.spotify.com/track/6rZeXqj2bZlZyUprXipciN)
