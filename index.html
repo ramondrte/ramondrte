@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Músicas Favoritas do Momento</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.cdnfonts.com/css/coolvetica" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,63 +15,34 @@
     <section class="musicas">
         <div class="musica">
             <h2>Doja Cat</h2>
-            <iframe src="https://open.spotify.com/embed/track/0IsIY8pfu1yaGkPUD7pkDx" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/track/0IsIY8pfuIyaGkPUD7pkDx" allow="encrypted-media"></iframe>
+            <div class="social">
+                <a href="https://www.instagram.com/dojacat/" target="_blank">Instagram</a>
+            </div>
         </div>
 
         <div class="musica">
-            <h2>Charlie XCX feat. Billie Eilish</h2>
-            <iframe src="https://open.spotify.com/embed/track/3B54sVLJ402zGa6Xm4YGNe" allow="encrypted-media"></iframe>
+            <h2>Charli XCX feat. Billie Eilish</h2>
+            <iframe src="https://open.spotify.com/embed/track/EXEMPLO" allow="encrypted-media"></iframe>
+            <div class="social">
+                <a href="https://www.instagram.com/charli_xcx/" target="_blank">Instagram Charli</a>
+                <a href="https://www.instagram.com/billieeilish/" target="_blank">Instagram Billie</a>
+            </div>
         </div>
 
         <div class="musica">
             <h2>French Montana</h2>
-            <iframe src="https://open.spotify.com/embed/track/2qyhy9ndo8tTGMzXeHTisR" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/track/EXEMPLO" allow="encrypted-media"></iframe>
+            <div class="social">
+                <a href="https://www.instagram.com/frenchmontana/" target="_blank">Instagram</a>
+            </div>
         </div>
-
-        <div class="musica">
-            <h2>Doja Cat</h2>
-            <iframe src="https://open.spotify.com/embed/track/4EIFwndJvGpgFjsEbNuYif" allow="encrypted-media"></iframe>
-        </div>
-
-        <div class="musica">
-            <h2>Jennie feat. Doechii</h2>
-            <iframe src="https://open.spotify.com/embed/track/3pjpG96WxzRnxNFxZC56vV" allow="encrypted-media"></iframe>
-        </div>
-
-        <div class="musica">
-            <h2>Tate McRae</h2>
-            <iframe src="https://open.spotify.com/embed/track/24XihnoVPWXlKJ4BgXqjVM" allow="encrypted-media"></iframe>
-        </div>
-    </section>
-
-    <section class="top-musica">
-        <h2>Música da Semana</h2>
-        <p><strong>Sportscar</strong> - Tate McRae</p>
-        <iframe src="https://open.spotify.com/embed/track/24XihnoVPWXlKJ4BgXqjVM" allow="encrypted-media"></iframe>
-    </section>
-
-    <section class="comentarios">
-        <h2>Comentários</h2>
-        <textarea id="comentario" placeholder="Deixe um comentário..."></textarea>
-        <button onclick="adicionarComentario()">Enviar</button>
-        <div id="lista-comentarios"></div>
     </section>
 
     <script>
-        function adicionarComentario() {
-            let comentario = document.getElementById("comentario").value;
-            if (comentario.trim() !== "") {
-                let div = document.createElement("div");
-                div.classList.add("comentario");
-                div.textContent = comentario;
-                document.getElementById("lista-comentarios").appendChild(div);
-                document.getElementById("comentario").value = "";
-            }
-        }
-
-        document.getElementById("toggle-theme").addEventListener("click", function() {
-            document.body.classList.toggle("dark-mode");
+        document.getElementById('toggle-theme').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
         });
     </script>
 </body>
-</html>           
+</html>
