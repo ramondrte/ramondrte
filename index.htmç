@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Música</title>
+</head>
+<body>
+    <h1>Candy - Doja Cat</h1>
+    <img src="candy.jpg" alt="Capa do álbum" width="300px">
+    <br>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1VJwtWR6z7SpZRwipI12be?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</body>
+</html>
