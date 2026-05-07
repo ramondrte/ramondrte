@@ -13,11 +13,11 @@
 ---
 ## 📊 Minhas Estatísticas no GitHub
 
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=ramondrte&show_icons=true&theme=radical&cache_seconds=86400)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=ramondrte&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramondrte&layout=compact&theme=radical&cache_seconds=86400)
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ramondrte&layout=compact&theme=radical)
 
-![Profile Views](https://komarev.com/ghpvc/?username=ramondrte&color=brightgreen)
+![Visitors](https://komarev.com/ghpvc/?username=ramondrte&color=brightgreen)
 
 ![Visitantes](https://komarev.com/ghpvc/?username=ramondrte&color=blue)
 
