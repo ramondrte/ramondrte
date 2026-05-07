@@ -13,9 +13,11 @@
 ---
 ## 📊 Minhas Estatísticas no GitHub
 
-![Estatísticas do GitHub de Ramon Duarte](https://github-readme-stats.vercel.app/api?username=ramondrte&show_icons=true&theme=dark)
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=ramondrte&show_icons=true&theme=radical&cache_seconds=86400)
 
-![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=ramondrte&layout=compact&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramondrte&layout=compact&theme=radical&cache_seconds=86400)
+
+![Profile Views](https://komarev.com/ghpvc/?username=ramondrte&color=brightgreen)
 
 ![Visitantes](https://komarev.com/ghpvc/?username=ramondrte&color=blue)
 
