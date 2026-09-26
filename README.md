@@ -1,11 +1,15 @@
-<h1 align="center">👋 Olá, eu sou o Ramon Duarte!</h1>
+<h1 align="center">Olá, eu sou o Ramon Duarte 👋</h1>
+
+<h3 align="center">
+  Suporte • Infraestrutura • NOC • ITSM • Governança de TI
+</h3>
 
 <p align="center">
-  🎓 Sistemas de Informação • 🖥️ Suporte & Infraestrutura • 📡 NOC • 📊 ITSM & Governança de TI
+  🎓 Sistemas de Informação | 💻 Operações de TI | 📊 Processos, SLA e Monitoramento
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ramondrte&color=blueviolet&style=flat-square&label=VISITAS+AO+PERFIL" />
+  <img src="https://komarev.com/ghpvc/?username=ramondrte&color=blueviolet&style=flat-square&label=VISITAS+AO+PERFIL"/>
 </p>
 
 ---
@@ -77,7 +81,7 @@
 
 ### ☁️ Cloud & Ferramentas
 
-`AWS` `CloudWatch` `VS Code` `DBeaver` `Postman / Insomnia`
+`AWS` `CloudWatch` `VS Code` `DBeaver` `Postman` `Insomnia`
 
 ---
 
@@ -85,32 +89,22 @@
 
 ### 🖥️ Ramon ITOps
 
-Plataforma de **Service Desk + SLA + Governança de TI**, criada para simular processos reais encontrados em ambientes de suporte e operações de TI.
+> Plataforma de Service Desk, SLA e Governança de TI criada para simular uma operação real de suporte e ITSM.
 
-🔹 Gestão de chamados  
-🔹 Priorização de incidentes  
-🔹 Responsáveis e técnicos  
-🔹 Histórico de alterações  
-🔹 Controle de SLA  
-🔹 Indicadores operacionais  
-🔹 Dashboard de Governança  
-🔹 PostgreSQL e Docker  
+✅ Abertura e gestão de chamados  
+✅ Prioridades e categorias  
+✅ Responsáveis e técnicos  
+✅ Histórico de alterações  
+✅ Fluxo de atendimento  
+✅ PostgreSQL  
+✅ Controle de concorrência  
+✅ Estrutura preparada para SLA, dashboards e governança  
 
-> O objetivo do projeto é ir além de um CRUD tradicional e representar processos utilizados em ambientes de **Service Desk, NOC e ITSM**.
-
-🔗 [Acessar o projeto Ramon ITOps](https://github.com/ramondrte/ramon-itops)
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=ramondrte&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramondrte&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
+<p align="left">
+  <a href="https://github.com/ramondrte/ramon-itops">
+    <img src="https://img.shields.io/badge/Ver%20Projeto-Ramon%20ITOps-6f42c1?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
@@ -119,16 +113,6 @@ Plataforma de **Service Desk + SLA + Governança de TI**, criada para simular pr
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ramondrte&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ramondrte&theme=tokyo-night&hide_border=true"/>
 
 </div>
 
@@ -149,14 +133,14 @@ Plataforma de **Service Desk + SLA + Governança de TI**, criada para simular pr
 
 ## 🤝 Vamos nos conectar
 
-<p align="left">
+<p align="center">
 
-<a href="https://www.linkedin.com/in/SEU-LINKEDIN/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<a href="https://www.linkedin.com/in/ramonduarte0/">
+  <img src="https://img.shields.io/badge/LinkedIn-Ramon%20Duarte-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="https://github.com/ramondrte">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-ramondrte-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </p>
@@ -166,4 +150,3 @@ Plataforma de **Service Desk + SLA + Governança de TI**, criada para simular pr
 <p align="center">
   💻 <i>Construindo conhecimento entre suporte, infraestrutura, operações e governança de TI.</i>
 </p>
-```
