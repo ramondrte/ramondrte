@@ -1,4 +1,3 @@
-```md
 <h1 align="center">👋 Olá, eu sou o Ramon Duarte!</h1>
 
 <p align="center">
